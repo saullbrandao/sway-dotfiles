@@ -5,8 +5,7 @@ bindsym $mod+e exec $files
 bindsym $mod+q kill
 bindsym $mod+d exec $menu
 bindsym $mod+Shift+c reload
-bindsym $mod+Shift+e exec $exit
-bindsym $mod+Escape exec $locker -f
+bindsym $mod+Escape exec $exit
 floating_modifier $mod normal
 
 # Moving focus
