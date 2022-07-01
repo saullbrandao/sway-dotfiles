@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "catppuccin"
+lvim.colorscheme = "material"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -144,9 +144,10 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- }
 
 lvim.plugins = {
-  {"catppuccin/nvim"},
+  { "catppuccin/nvim" },
+  { "marko-cerovac/material.nvim" }
 }
-
+vim.g.material_style = "deep ocean"
 vim.g.catppuccin_flavour = "mocha"
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {

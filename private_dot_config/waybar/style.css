@@ -1,13 +1,9 @@
-@define-color flamingo #f2cdcd;
-@define-color red #f38ba8;
-@define-color peach #fab387;
-@define-color green #a6e3a1;
-@define-color blue #89b4fa;
-@define-color lavender #b4befe;
-@define-color text #cdd6f4;
-@define-color base #1e1e2e;
-@define-color mantle #181825;
-@define-color crust #11111b;
+@define-color blue #2196f3;
+@define-color red #f44336;
+@define-color green #4caf50;
+@define-color white #f5f5f5;
+@define-color dark-gray #212121;
+@define-color bg #111111;
 
 * {
   min-height: 0;
@@ -19,18 +15,18 @@
 }
 
 tooltip {
-  background: @crust;
+  background: @bg;
   border-radius: 7px;
-  border: 2px solid @border;
+  border: 2px solid @blue;
 }
 
 window#waybar {
-  background-color: @crust;
-  color: @text;
+  background-color: @bg;
+  color: @white;
 }
 
 #workspaces {
-  background: @crust;
+  background: @bg;
   margin-left: 5px;
   margin-bottom: 5px;
   border-radius: 7px;
@@ -40,55 +36,36 @@ window#waybar {
   padding-left: 10px;
   padding-right: 10px;
   min-width: 0;
-  color: @text;
+  color: @white;
 }
 
 #workspaces button.focused {
-  background-color: @flamingo;
-  color: @mantle;
+  background-color: @blue;
+  color: @dark-gray;
 }
 
 #workspaces button.urgent {
-  background-color: @peach;
-  color: @mantle;
+  background-color: @red;
+  color: @dark-gray;
 }
 
 #workspaces button:hover {
-  background: @base;
-  border-color: @base;
-  color: @flamingo;
+  background: @dark-gray;
+  border-color: @dark-gray;
+  color: @blue;
 }
 
 #workspaces button:first-child:hover,
-#workspaces button.focused:first-child,
+#workspaces button.light-red:first-child,
 #workspaces button.urgent:first-child {
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
 }
 #workspaces button:last-child:hover,
-#workspaces button.focused:last-child,
+#workspaces button.light-red:last-child,
 #workspaces button.urgent:last-child {
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
-}
-
-#network {
-  margin: 5px;
-  padding-left: 10px;
-  padding-right: 15px;
-  border-radius: 7px;
-  color: @mantle;
-}
-#network.wifi,
-#network.ethernet {
-  background-color: @green;
-}
-#network.linked {
-  background-color: @peach;
-}
-#network.disconnected,
-#network.disabled {
-  background-color: @red;
 }
 
 #cpu {
@@ -96,8 +73,8 @@ window#waybar {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 7px;
-  color: @text;
-  background-color: @crust;
+  color: @white;
+  background-color: @bg;
 }
 
 #memory {
@@ -105,8 +82,8 @@ window#waybar {
   padding-left: 10px;
   padding-right: 15px;
   border-radius: 7px;
-  color: @text;
-  background-color: @crust;
+  color: @white;
+  background-color: @bg;
 }
 
 #pulseaudio {
@@ -114,13 +91,13 @@ window#waybar {
   padding-left: 10px;
   padding-right: 15px;
   border-radius: 7px;
-  color: @text;
-  background-color: @crust;
+  color: @white;
+  background-color: @bg;
 }
 
 #pulseaudio.muted {
   background-color: @red;
-  color: @mantle;
+  color: @white;
 }
 
 #clock {
@@ -128,6 +105,6 @@ window#waybar {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 7px;
-  color: @text;
-  background-color: @crust;
+  color: @white;
+  background-color: @bg;
 }

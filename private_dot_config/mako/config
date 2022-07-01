@@ -10,10 +10,10 @@ border-radius=7
 font=Inter 10
 default-timeout=3000
 
-background-color=#1e1e2e
-text-color=#cdd6f4
-border-color=#89b4fa
-progress-color=over #313244
+background-color=#080808
+text-color=#f5f5f5
+border-color=#2196F3
+progress-color=over #212121
 
 [urgency=high]
-border-color=#fab387
+border-color=#F44336
