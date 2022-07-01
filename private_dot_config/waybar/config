@@ -12,6 +12,11 @@
     "tray",
     "clock"
   ],
+  "sway/workspaces": {
+    "all-outputs": true,
+    "disable-scroll": true,
+    "format": "{name}"
+  },
   "clock": {
     "interval": 60,
     "format": "{:%e %b %Y %H:%M}",
@@ -19,32 +24,19 @@
     "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
   },
   "cpu": {
-    "interval": 5,
-    "format": "  {usage}%",
-    "states": {
-      "warning": 70,
-      "critical": 90
+    "format": "{usage}% ",
+    "tooltip": false
     },
-    "on-click": "swaymsg exec '$term -e htop'"
-  },
-  "memory": {
-    "interval": 5,
-    "format": "  {}%",
-    "states": {
-      "warning": 70,
-      "critical": 90
+   "memory": {
+     "format": "{}% "
     },
-    "on-click": "swaymsg exec '$term -e htop'"
-  },
-    "sway/workspaces": {
-    "all-outputs": true,
-    "disable-scroll": true,
-    "format": "{name}"
-  },
   "pulseaudio": {
-    "format": "{icon}{volume}%  󰍬{format_source}",
-    "format-bluetooth": "{icon}󰂰 {volume}%  󰍬{format_source}",
-    "format-muted": "󰖁",
+    "format": "{icon}  {volume}% {format_source}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": " {volume}",
+    "format-source-muted": "",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -52,7 +44,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["奔", "墳", " "]
+      "default": ["", "", ""]
     },
     "on-click": "pavucontrol"
   },
