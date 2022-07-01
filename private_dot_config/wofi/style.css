@@ -1,0 +1,36 @@
+@define-color lavender #b4befe;
+@define-color text #cdd6f4;
+@define-color crust #11111b;
+  
+
+window {
+  border: 2px solid @lavender;
+	color: @text; 
+  border-radius: 5px;
+  background-color: @crust;
+  opacity: 0.95;
+}
+
+#inner-box {
+	  margin: 10px;
+  }
+
+#input { 
+  margin: 10px;
+	border: 2px solid @lavender;
+	border-radius: 5px;
+	background-color: inherit;
+}
+
+#text {
+  margin-left: 1em;
+}
+
+#text:selected {
+  color: @crust;
+}
+
+#entry:selected {
+  background-color: @lavender;
+}
+

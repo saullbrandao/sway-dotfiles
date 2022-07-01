@@ -1,0 +1,64 @@
+{
+  "layer": "top",
+  "height": 30,
+  "modules-left": [
+    "sway/workspaces",
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "pulseaudio",
+    "tray",
+    "clock"
+  ],
+  "clock": {
+    "interval": 60,
+    "format": "{:%e %b %Y %H:%M}",
+    "tooltip": true,
+    "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
+  },
+  "cpu": {
+    "interval": 5,
+    "format": "  {usage}%",
+    "states": {
+      "warning": 70,
+      "critical": 90
+    },
+    "on-click": "swaymsg exec '$term -e htop'"
+  },
+  "memory": {
+    "interval": 5,
+    "format": "  {}%",
+    "states": {
+      "warning": 70,
+      "critical": 90
+    },
+    "on-click": "swaymsg exec '$term -e htop'"
+  },
+    "sway/workspaces": {
+    "all-outputs": true,
+    "disable-scroll": true,
+    "format": "{name}"
+  },
+  "pulseaudio": {
+    "format": "{icon}{volume}%  󰍬{format_source}",
+    "format-bluetooth": "{icon}󰂰 {volume}%  󰍬{format_source}",
+    "format-muted": "󰖁",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["奔", "墳", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 5
+  },
+  "position": "top"
+}

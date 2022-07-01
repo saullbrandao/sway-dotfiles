@@ -1,0 +1,12 @@
+# GTK app settings
+exec_always {
+        gsettings set $gnome-schema gtk-theme 'Catppuccin-dark-compact'
+        gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+       #gsettings set $gnome-schema cursor-theme 'XCursor-Pro-Dark'
+        gsettings set $gnome-schema font-name 'Inter Bold 10'
+}
+
+# Client focused/not focused colours
+# class          border  bground text    indicator child_border
+client.focused   #b4befe #1e1e2e #cdd6f4 #b4befe   #b4befe 
+client.unfocused #6c7086 #1e1e2e #cdd6f4 #6c7086   #6c7086 

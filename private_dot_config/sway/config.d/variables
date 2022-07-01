@@ -1,0 +1,38 @@
+# Mod key
+set $mod Mod4
+
+# Movement
+set $left h
+set $down j
+set $up k
+set $right l
+
+# Terminal
+set $term foot
+
+# Browser
+set $browser firefox
+
+# File Manager
+set $files nemo
+
+# App menu
+set $menu wofi
+
+# GTK interface
+set $gnome-schema org.gnome.desktop.interface
+
+# Screen locker
+set $locker swaylock
+
+# Workspaces
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 0

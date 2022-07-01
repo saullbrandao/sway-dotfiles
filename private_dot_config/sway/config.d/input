@@ -1,0 +1,3 @@
+# Accerleration (turn off for whatever pointer available)
+input * accel_profile flat
+input * xkb_numlock enable

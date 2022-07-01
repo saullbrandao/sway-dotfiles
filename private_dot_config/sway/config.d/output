@@ -1,0 +1,7 @@
+# Monitor
+output HDMI-A-1 {
+	pos 0 0 mode 1920x1080
+}
+
+# Wallpaper
+output * bg $HOME/Pictures/wp.png fill
