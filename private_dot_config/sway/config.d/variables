@@ -29,7 +29,7 @@ set $locker "swaylock"
 set $printscreen 'grim -g "$(slurp)" - | swappy -f -'
 
 # Exit
-set $exit "wlogout" 
+set $exit "wlogout -b 3" 
 
 # Workspaces
 set $ws1 1
