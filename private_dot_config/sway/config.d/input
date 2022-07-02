@@ -1,3 +1,8 @@
-# Accerleration (turn off for whatever pointer available)
-input * accel_profile flat
-input * xkb_numlock enable
+input "type:mouse" {
+  accel_profile flat
+}
+
+input "type:keyboard" {
+  xkb_numlock enable
+  xkb_layout us(altgr-intl)
+}
