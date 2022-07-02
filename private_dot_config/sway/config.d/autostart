@@ -4,5 +4,9 @@ exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Notifications
 exec mako
 
+# Night Light
+exec gammastep
+exec gammastep-indicator
+
 # Autotiling
 exec_always autotiling
