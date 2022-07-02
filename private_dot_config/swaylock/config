@@ -1,10 +1,9 @@
-i# General
+# General
 ignore-empty-password
-screenshots
 clock
 
 # Theming
-font=Roboto 12
+font=Inter 12
 indicator
 indicator-radius=150
 indicator-thickness=10
@@ -20,7 +19,6 @@ ring-clear-color=#bac2de
 ring-caps-lock-color=#bac2de
 ring-ver-color=#bac2de
 ring-wrong-color=#bac2de
-separator-color={color2}
 text-color=#bac2de
 text-clear-color=#bac2de
 text-caps-lock-color=#bac2de

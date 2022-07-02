@@ -22,6 +22,9 @@ set $menu wofi
 # GTK interface
 set $gnome-schema org.gnome.desktop.interface
 
+# Locker
+set $locker "swaylock"
+
 # Exit
 set $exit "wlogout" 
 
