@@ -1,32 +1,3 @@
-# General
-ignore-empty-password
-clock
-
-# Theming
-font=Inter 12
-indicator
-indicator-radius=150
-indicator-thickness=10
-inside-color=#00000000
-inside-clear-color=#00000000
-inside-caps-lock-color=#00000000
-inside-ver-color=#00000000
-inside-wrong-color=#00000000
-key-hl-color=#a6e3a1
-line-uses-ring
-ring-color=#bac2de
-ring-clear-color=#bac2de
-ring-caps-lock-color=#bac2de
-ring-ver-color=#bac2de
-ring-wrong-color=#bac2de
-text-color=#bac2de
-text-clear-color=#bac2de
-text-caps-lock-color=#bac2de
-text-ver-color=#bac2de
-text-wrong-color=#bac2de
-
-# Effects
-effect-blur=7x5
-effect-vignette=0.5:0.5
-grace=2
-fade-in=0.5
+color=000000
+indicator-caps-lock
+image=$HOME/.config/sway/wp.png
