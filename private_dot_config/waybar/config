@@ -13,10 +13,25 @@
     "clock"
   ],
   "sway/workspaces": {
-    "all-outputs": true,
-    "disable-scroll": true,
-    "format": "{name}"
-  },
+		"disable-scroll": true,
+		"format": " {icon} ",
+		"format-icons": {
+			"1": "",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": "",
+			"6": "",
+			"7": "",
+			"8": "",
+			"9": "",
+		}
+	},
+  //"sway/workspaces": {
+   // "all-outputs": true,
+   // "disable-scroll": true,
+    //"format": "{name}"
+  //},
   "clock": {
     "interval": 60,
     "format": "{:%e %b %Y %H:%M}",
