@@ -6,6 +6,8 @@ bindsym $mod+q kill
 bindsym $mod+d exec $menu
 bindsym $mod+Shift+c reload
 bindsym $mod+Escape exec $exit
+bindsym $mod+p exec $printscreen
+
 floating_modifier $mod normal
 
 # Moving focus

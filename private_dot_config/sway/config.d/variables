@@ -25,6 +25,9 @@ set $gnome-schema org.gnome.desktop.interface
 # Locker
 set $locker "swaylock"
 
+# Screenshot tool
+set $printscreen 'grim -g "$(slurp)" - | swappy -f -'
+
 # Exit
 set $exit "wlogout" 
 

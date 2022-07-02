@@ -5,6 +5,7 @@ gaps inner 8
 smart_gaps on
 smart_borders on
 focus_follows_mouse no
+
 # Window rules
 # Firefox & Chrome
 for_window [app_id="firefox"] inhibit_idle fullscreen

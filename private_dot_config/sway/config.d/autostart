@@ -6,7 +6,6 @@ exec mako
 
 # Night Light
 exec gammastep
-exec gammastep-indicator
 
 # NM Applet
 exec_always nm-applet --indicator
