@@ -14,6 +14,13 @@
   ],
   "sway/workspaces": {
 		"disable-scroll": true,
+    "persistent_workspaces": {
+      "1": [], 
+      "2": [], 
+      "3": [], 
+      "4": [], 
+      "5": [] 
+    },
 		"format": " {icon} ",
 		"format-icons": {
 			"1": "",
@@ -27,11 +34,6 @@
 			"9": "",
 		}
 	},
-  //"sway/workspaces": {
-   // "all-outputs": true,
-   // "disable-scroll": true,
-    //"format": "{name}"
-  //},
   "clock": {
     "interval": 60,
     "format": "{:%e %b %Y %H:%M}",
