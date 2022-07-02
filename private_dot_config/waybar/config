@@ -1,16 +1,15 @@
 {
   "layer": "top",
-  "height": 30,
+  "height": 17,
   "modules-left": [
     "sway/workspaces",
   ],
-  "modules-center": [],
+  "modules-center": ["clock"],
   "modules-right": [
     "cpu",
     "memory",
     "pulseaudio",
     "tray",
-    "clock"
   ],
   "sway/workspaces": {
 		"disable-scroll": true,
@@ -36,7 +35,7 @@
 	},
   "clock": {
     "interval": 60,
-    "format": "{:%e %b %Y %H:%M}",
+    "format": "{:%a, %d %b %H:%M}",
     "tooltip": true,
     "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
   },
@@ -50,10 +49,10 @@
   "pulseaudio": {
     "format": "{icon}  {volume}% {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
-    "format-muted": " {format_source}",
-    "format-source": " {volume}%",
-    "format-source-muted": "",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": " ",
+    "format-source-muted": " ",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -66,8 +65,7 @@
     "on-click": "pavucontrol"
   },
   "tray": {
-    "icon-size": 20,
-    "spacing": 5
+    "spacing": 12
   },
   "position": "top"
 }
