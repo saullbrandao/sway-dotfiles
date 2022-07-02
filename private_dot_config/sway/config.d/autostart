@@ -8,5 +8,8 @@ exec mako
 exec gammastep
 exec gammastep-indicator
 
+# NM Applet
+exec_always nm-applet --indicator
+
 # Autotiling
 exec_always autotiling
