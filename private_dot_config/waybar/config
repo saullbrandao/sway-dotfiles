@@ -1,5 +1,6 @@
 {
   "layer": "top",
+  "position": "top",
   "height": 17,
   "modules-left": [
     "sway/workspaces",
@@ -10,6 +11,7 @@
     "memory",
     "pulseaudio",
     "tray",
+    "custom/power"
   ],
   "sway/workspaces": {
 		"disable-scroll": true,
@@ -67,5 +69,9 @@
   "tray": {
     "spacing": 12
   },
-  "position": "top"
+  "custom/power": {
+     "format": "",
+     "tooltip": false,
+     "on-click": "wlogout"
+  }
 }

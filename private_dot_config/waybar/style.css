@@ -23,14 +23,15 @@ tooltip {
 }
 
 window#waybar {
-  background-color: @bg;
-  color: @white;
+  background-color: @theme_base_color;
+  color: @theme_text_color;
 }
 
 #workspaces,
 #cpu,
 #memory,
 #pulseaudio,
+#custom-power,
 #tray {
   margin: 2px 4px;
   padding: 0 10px;
@@ -70,3 +71,8 @@ window#waybar {
   padding-right: 10px;
   border-radius: 7px;
 }
+
+#custom-power {
+  color: @red;
+}
+
