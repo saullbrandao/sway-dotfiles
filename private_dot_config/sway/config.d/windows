@@ -45,5 +45,7 @@ for_window [instance="update_installer"] floating enable
 assign [app_id="firefox"] workspace number 1
 assign [class="ZapZap"] workspace number 3
 assign [class="discord"] workspace number 3
+assign [app_id="thunderbird"] workspace number 3
+assign [app_id="mpv"] workspace number 4
 assign [class="Steam"] workspace number 5 
 
