@@ -49,3 +49,8 @@ assign [app_id="thunderbird"] workspace number 3
 assign [app_id="com.github.rafostar.Clapper"] workspace number 4
 assign [class="Steam"] workspace number 5 
 
+assign [class="leagueclient.exe"] workspace number 5 
+assign [class="leagueclientux.exe"] workspace number 5 
+assign [class="league of legends.exe"] workspace number 5
+assign [class="riotclientux.exe"] workspace number 6 
+assign [class="explorer.exe"] workspace number 6
